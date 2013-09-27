@@ -1,0 +1,30 @@
+.navbar {
+	height: 150px;
+}
+@media (min-width: 768px) {
+	.container > .navbar-header {
+		float: none;
+	}
+}
+
+@media (min-width: 768px) {
+	 .navbar-header .navbar-header-image {
+	 	display: block;
+		text-align: center;
+		vertical-align: middle;
+		width: 100px;
+		height: 100px;
+		border-radius: 5px 5px 5px 5px;
+		margin-right: 20px;
+		float: left;
+	}
+}
+
+.navbar-collapse {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.container .content-wrapper {
+	margin-top: 50px;
+}
