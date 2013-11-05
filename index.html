@@ -16,27 +16,6 @@
 		<link href="includes/css/base.css" rel="stylesheet">
 	</head>
 	<style>
-	@media (min-width: 768px) {
-		.container > .navbar-header {
-			float: none;
-		}
-	}
-
-	@media (min-width: 768px) {
-		 .navbar-header-image {
-			display: block;
-			text-align: center;
-			vertical-align: middle;
-			width: 100px;
-			height: 100px;
-			border-radius: 5px 5px 5px 5px;
-			margin-right: 20px;
-			float: left;
-		}
-		.container {
-			text-align:center;
-			width: 100%;
-		}
 		#jumbotron {
 			text-align: center;
 		}
@@ -46,26 +25,42 @@
 		}
 		
 		#call-to-action button {
+			background-color: #00b7d1;
 			width: 200px;
 			margin: 10px;
 			
 		}
+		#call-to-action .more-info {
+			background-color: #dfdedc;
+		}
+		
 		video {
 			border-radius: 10px 10px 10px 10px;
 		}	
 	</style>
-	<body>
-      		<div class="header">
+	<body id="index">
+	<div id="header">
 		<div class="container">
-		<a class="navbar-header-image" href="#"><img src="./includes/img/logo.jpg" alt="Logo AV" /></a>
-		<h1 class="text-muted">Assemblée virtuelle</h1>
+			<a href="/">
+				<h3 class="text-muted">Assemblée</h3>
+				<img src="./includes/img/av-logo-sm.png" alt="Logo AV" />
+				<h3 class="text-muted">Virtuelle</h3>
+			</a>
 		</div>
-	      </div>
-	<div class="container">
-		
+			<!--<div id="navigation-links" class="container">
+				<ul class="nav nav-pills pull-right">
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Other</a></li>
+				</ul>
+			</div>-->
+	</div>
+	<div class="container">	
 	      <div class="container">
 		<video controls width="700" height="500">
-			<source src="plass.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+		<!--	<source src="plass.mp4" type="video/mp4" />
+			<source src="http://thesuperheroblueprint.com/videos/Sequence1.webm" type='video/webm' />
+-->
 			L'union fait la force
 		</video>
 		</div>
@@ -80,7 +75,7 @@
 			</div>
 			<div class="col-lg-12">	
 				<div class="container">
-				<button type="button" class="btn btn-default btn-lg">En savoir plus</button>
+				<button type="button" class="btn btn-default btn-lg more-info">En savoir plus</button>
 				</div>
 			</div>
 		</div>
