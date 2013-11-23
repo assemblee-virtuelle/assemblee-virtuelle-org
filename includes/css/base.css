@@ -1,5 +1,5 @@
 body {
-	background-color: #00b7a1;
+	background-color: #f3efea; /*00b7a1;*/
 	width: 100%;
 	/*5fc7c3;*/	
 }
@@ -11,9 +11,9 @@ body {
 #header {
 	width:100%;
 	/*background-color: #007e74*/
-	background-color: #dfdedc;
+	background-color: #ffffff;
 	margin-bottom: 15px;
-	box-shadow: 8px 8px 12px #007e74;
+	box-shadow: 0px 8px 8px #d8d5d0; /*007e74;*/
 }
 
 #header .container {
@@ -31,7 +31,7 @@ body {
 	text-decoration: none;
 }
 
-#header .container .navigation-links {
+/*#header .container .navigation-links {
 	width: 200px;
 	float: right;
 	display: block;
@@ -67,7 +67,7 @@ body {
 .navbar-collapse {
 	padding-left: 0px;
 	padding-right: 0px;
-}
+}*/
 
 .content-wrapper {
 	margin-left: 0;
