@@ -10,8 +10,7 @@
 		<title>Bienvenue sur Assemblee-virtuelle.org</title>
 
 		<!-- Bootstrap Core CSS -->
-		<link href="./library/bootstrap/css/bootstrap.css" rel="stylesheet">
-		
+		<link href="./library/bootstrap/css/bootstrap.css" rel="stylesheet">	
 		<!-- Custom style for this page -->
 		<link href="includes/css/base.css" rel="stylesheet">
 	</head>
@@ -32,7 +31,7 @@
 
 		#call-to-action button {
 			background-color: #00b7d1;
-			width: 140px;
+			width: 100px;
 			margin: 10px;
 			
 		}
@@ -46,12 +45,17 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">
-					<img src="./includes/img/logo_av1.png" alt="Logo AV" />
-					Assemblée Virtuelle
+					<img class="logo" src="./includes/img/logo_av1.png" alt="Logo AV" />
+					<h1>
+						<span class="title-line">
+							Assemblée
+						</span> 
+						Virtuelle
+					</h1>
 				</a>
 			</div>
 			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav pull-right">
 					<li><a id="link-project" href="#project">Le projet</a></li>
 					<li><a id="link-assembly" href="#assembly">L'Assemblée</a></li>
 					<li><a id="link-blog" href="#blog">Blog</a></li>
@@ -59,7 +63,7 @@
 					<li><a id="link-contact" href="#contact">Contact</a></li>
 				</ul>
 			</div>
-			<div class="navbar-header-share">
+			<!-- <div class="navbar-header-share">
 				<div id="navigation-links" class="container">
 					<ul class="nav nav-pills pull-right">
 						<li><a href="#">Contact</a></li>
@@ -67,19 +71,17 @@
 						<li><a href="#">Other</a></li>
 					</ul>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 
-	<div class="container">	
-	      <div class="container">
-		<video controls width="700" height="500">
+      <div id="video-main" class="row col-lg-12">
+		<video controls width="500" height="300">
 		<!--	<source src="plass.mp4" type="video/mp4" />
 			<source src="http://thesuperheroblueprint.com/videos/Sequence1.webm" type='video/webm' />
 -->
-			L'union fait la force
+			Les liens font la force
 		</video>
-		</div>
 	</div>
 	<div class="container marketing">
 		<div class="row" id="call-to-action">
@@ -88,7 +90,7 @@
 					<img src="./includes/img/av_gift.png" alt="Bouton d'action de don à Assemblée Virtuelle" />
 				</a>
 				<p>
-					<button type="button" class="btn btn-primary btn-lg">Donner</button>
+					<button type="button" class="btn btn-primary">Donner</button>
 				</p>
 			</div>
 			<div class="col-lg-4 action">
@@ -96,7 +98,7 @@
 					<img src="./includes/img/av_action.png" alt="Bouton de soutien actif à Assemblée Virtuelle" />
 				</a>
 				<p>
-					<button type="button" class="btn btn-primary btn-lg">Agir</button>
+					<button type="button" class="btn btn-primary">Agir</button>
 				</p>
 			</div>
 			<div class="col-lg-4 action">
@@ -104,7 +106,7 @@
 					<img src="./includes/img/av_more.png" alt="Bouton d'accès à plus d'informations à propos d'Assemblée Virtuelle" />
 				</a>
 				<p>
-					<button type="button" class="btn btn-primary btn-lg">En savoir plus</button>
+					<button type="button" class="btn btn-primary">En savoir plus</button>
 				</p>
 			</div>
 		</div>

@@ -9,15 +9,15 @@ body {
 }
 
 #header {
-	width:100%;
-	/*background-color: #007e74*/
-	background-color: #ffffff;
-	margin-bottom: 15px;
-	box-shadow: 0px 8px 8px #d8d5d0; /*007e74;*/
+}
+
+#header .logo {
+	width: 150px;
+	height: 150px;
 }
 
 #header .container {
-	padding:    10px;
+	height: 150px;
 	text-align: center;
 }
 
@@ -31,26 +31,61 @@ body {
 	text-decoration: none;
 }
 
-/*#header .container .navigation-links {
-	width: 200px;
+#header .container a:hover {
+	color: #0095a1;
+}
+
+.navbar-header .navbar-brand {
+	padding: 0px;
+	color: #66bfc7;
+}
+
+.navbar-header .navbar-brand h1 {
+	margin-top: 25px;
+	height: 100px;
+	display: block;
 	float: right;
+}
+
+.navbar-header .navbar-brand .title-line {
 	display: block;
+	margin-bottom: 10px;
 }
 
-#header .container ul > li {
-	float: none;
-	display: block;
+.navbar .container .navbar-collapse .navbar-nav {
+	height: 150px;
+	line-height: 150px;
+	margin-top: 0px;
+	margin-right: 50px;
 }
 
-#header .container a {
-	color: #999999
+.navbar .container .navbar-collapse .navbar-nav li a {
+	margin: 0px;
+	height: 150px;
+	line-height: 150px;
+	padding-top: 25px;
+	color: #66bfc7;
 }
 
-.navbar-header-image img{
-	border-radius: 10px;
+#header {
+	border: none;
+	height: 150px;
+	width:100%;
+	/*background-color: #007e74*/
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	box-shadow: 0px 8px 8px #d8d5d0; /*007e74;*/
 }
 
-@media (min-width: 768px) {
+.navbar . li a:hover{
+	color: #0095a1;
+}
+
+.navbar .navbar-nav li a:hover{
+	color: #0095a1;
+}
+
+/*@media (min-width: 768px) {
 	.container > .navbar-header {
 		float: none;
 	}
@@ -62,15 +97,15 @@ body {
 		height: 100px;
 		border-radius: 5px 5px 5px 5px;
 	}
-}
-
-.navbar-collapse {
-	padding-left: 0px;
-	padding-right: 0px;
 }*/
 
 .content-wrapper {
 	margin-left: 0;
+	margin-top: 175px;
+}
+
+#video-main {
+	margin-top: 175px;
 }
 
 .panel {
@@ -125,8 +160,6 @@ body {
 #blog:target ~ #header #navigation #link-blog,
 #partners:target ~ #header #navigation #link-partners,
 #contact:target ~ #header #navigation #link-contact {
-	background: #000;
-	color: #fff;
 }
 
 button {
