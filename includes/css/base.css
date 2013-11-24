@@ -12,12 +12,12 @@ body {
 }
 
 #header .logo {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
 
 #header .container {
-	height: 150px;
+	height: 100px;
 	text-align: center;
 }
 
@@ -33,6 +33,15 @@ body {
 
 #header .container a:hover {
 	color: #0095a1;
+	background-color: #f3efea; /*00b7a1;*/
+}
+
+#header .container a:visited {
+	background-color: #f3efea; /*00b7a1;*/
+}
+
+.navbar-header {
+	height: 100px;
 }
 
 .navbar-header .navbar-brand {
@@ -41,10 +50,13 @@ body {
 }
 
 .navbar-header .navbar-brand h1 {
-	margin-top: 25px;
+	font-size: 30px;
+	padding-top: 10px;
 	height: 100px;
 	display: block;
 	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .navbar-header .navbar-brand .title-line {
@@ -53,23 +65,26 @@ body {
 }
 
 .navbar .container .navbar-collapse .navbar-nav {
-	height: 150px;
-	line-height: 150px;
 	margin-top: 0px;
 	margin-right: 50px;
 }
 
+.navbar .container .navbar-collapse #nav-main {
+	margin-left: 100px;
+}
+
 .navbar .container .navbar-collapse .navbar-nav li a {
 	margin: 0px;
-	height: 150px;
-	line-height: 150px;
-	padding-top: 25px;
+	line-height: 50px;
+	margin-top: 50px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 	color: #66bfc7;
 }
 
 #header {
 	border: none;
-	height: 150px;
+	height: 100px;
 	width:100%;
 	/*background-color: #007e74*/
 	background-color: #ffffff;
@@ -77,12 +92,16 @@ body {
 	box-shadow: 0px 8px 8px #d8d5d0; /*007e74;*/
 }
 
-.navbar . li a:hover{
+.navbar li a:hover{
 	color: #0095a1;
 }
 
 .navbar .navbar-nav li a:hover{
 	color: #0095a1;
+}
+
+.navbar .navbar-nav li a:visited{
+	background-color: #f3efea; /*00b7a1;*/
 }
 
 /*@media (min-width: 768px) {
@@ -105,7 +124,7 @@ body {
 }
 
 #video-main {
-	margin-top: 175px;
+	margin-top: 125px;
 }
 
 .panel {
@@ -131,7 +150,6 @@ body {
 
 .content {
 	padding-top: 150px;
-	right: 40px;
 	left: 280px;
 	position: absolute;
 }
@@ -155,11 +173,20 @@ body {
 	margin: 3px 0px;	
 }
 
-#project:target ~ #header #navigation #link-project, 
-#assembly:target ~ #header #navigation #link-assembly,
-#blog:target ~ #header #navigation #link-blog,
-#partners:target ~ #header #navigation #link-partners,
-#contact:target ~ #header #navigation #link-contact {
+#project:target ~ #header #link-project, 
+#assembly:target ~ #header #link-assembly,
+#blog:target ~ #header #link-blog,
+#partners:target ~ #header #link-partners,
+#contact:target ~ #header #link-contact {
+	background-color: #f3efea; /*00b7a1;*/
+}
+
+#link-project:target, 
+#link-assembly:target,
+#link-blog:target,
+#link-partners:target,
+#link-contact:target {
+	background-color: #f3efea; /*00b7a1;*/
 }
 
 button {
